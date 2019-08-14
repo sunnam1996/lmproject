@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<header>
+<div>
+<div class="heading">
+</div>
+</header>
+<div class="signup">
+<form name="registration" action=" reg/" method="post">
+    {% csrf_token %}
+<center><h1>REGISTER HEAR</h1>
+<hr>
+<input type="text" name="UserName" id="username" placeholder="UserName" required><br>
+<input type="text" name="FirstName" id="firstname" placeholder="FirstName" required>
+<input type="text" name="LastName" id="lastname" placeholder="LastName" required><br>
+<input type="text" name="Gender" id="gender" placeholder="Gender" required>
+<input type="date" name="DateOfjoin" id="dateofjoin" required placeholder="DateOfBirth" ><br>
+<input type="text" name="Email" id="email" placeholder="Email" required>
+<input type="text" name="MobileNumber" id="mobno" placeholder="MobileNumber" required><br>
+<input type="password" name="Password" id="password" placeholder="Password" required>
+<input type="confirmpassword" name="ConfirmPassword" id="confirmpassword" placeholder="ConfirmPassword" required><br>
+
+<input type="submit" name="submit" value="submit"><br>
+<div class="button">
+    <a href="new registration.html" class="btn btn-one"> back</a></center>
+</div>
+
+</div>
+</form>
+<div>
+</body>
+</html>
